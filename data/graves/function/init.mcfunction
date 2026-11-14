@@ -1,5 +1,5 @@
-tellraw @a ["",{"text":"This datapack was made by>> ","bold":true,"color":"#FFFFFF"},{"text":"Starmarine06","color":"blue","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/starmarine06/"},"hoverEvent":{"action":"show_text","contents":[{"text":"My website","bold":true}]}}]
-tellraw @a ["",{"text":"Thank you for using!!>> ","bold":true,"color":"#FFFFFF"},{"text":"GRAVES","color":"gray","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/starmarine06/"},"hoverEvent":{"action":"show_text","contents":[{"text":"My website","bold":true}]}}]
+tellraw @a ["",{"text":"This datapack was made by>> ","bold":true,"color":"#FFFFFF"},{"text":"Starmarine06","color":"blue","click_event":{"action":"open_url","url":"https://www.planetminecraft.com/member/starmarine06/"},"hover_event":{"action":"show_text","value":[{"text":"My website","bold":true}]}}]
+tellraw @a ["",{"text":"Thank you for using!!>> ","bold":true,"color":"#FFFFFF"},{"text":"GRAVES","color":"gray","click_event":{"action":"open_url","url":"https://www.planetminecraft.com/member/starmarine06/"},"hover_event":{"action":"show_text","value":[{"text":"My website","bold":true}]}}]
 #Scoreboards
 scoreboard objectives add death deathCount
 scoreboard players set @a death 0
